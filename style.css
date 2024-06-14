@@ -1,0 +1,327 @@
+body {
+  /* Ici on utilise le sélecteur body pour appliquer une police et une taille par défaut pour les éléments */
+  font-family: "Manrope", sans-serif;
+  font-size: 1em;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+em {
+  color: #a5b4fc;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 3.5em;
+  color: #a5b4fc;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+p {
+  font-size: 1.1em;
+}
+header,
+footer {
+  background-color: rgb(255, 255, 255);
+}
+body {
+  background-color: #1f2039;
+}
+p,
+h2,
+ul,
+a {
+  color: #f9f8ff;
+}
+
+.lien {
+  background: linear-gradient(90deg, #8e86b5, #acaeed);
+  font-family: "Manrope";
+  color: white;
+  border-radius: 50px;
+}
+.ecriturelogo {
+  color: #a5b4fc;
+  padding: 20px;
+}
+.cadre {
+  border-right: 1px #8e86b5 solid;
+  border-bottom: 1px #8e86b5 solid;
+  background-color: #1f2039;
+  font-family: "Manrope", sans-serif;
+  font-size: 1.1em;
+}
+.ecriturelogo:hover {
+  text-decoration: underline;
+}
+.cta:hover {
+  background: linear-gradient(90deg, #696484, #8788ba);
+}
+.ecriturelogo:hover,
+.logo:hover,
+.lien-icone:hover {
+  opacity: 50%;
+}
+* {
+  margin: 0;
+}
+header,
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 20px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section:not(.carre) {
+  padding: 80px;
+}
+.carre {
+  padding: 50px;
+}
+.a_propos {
+  margin: auto;
+}
+h2 {
+  padding-top: 25px;
+}
+.cta {
+  margin: auto;
+}
+.reseau {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.ecriturelogo {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+.haut {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.accueil {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.photographie {
+  padding-bottom: 45px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.contenu {
+  padding-left: 10px;
+  padding-right: 25px;
+}
+.apropos {
+  padding-top: 40px;
+}
+.cta {
+  padding: 20px;
+  box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+}
+.h2 {
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+  background-color: white;
+}
+.photos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-direction: column;
+  background-color: white;
+}
+.MIAOU {
+  padding: 20px;
+}
+.image1 {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.image2 {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  padding-bottom: 200px;
+}
+.mon-dernier-projet {
+  color: #1f2039;
+}
+.paysagegrp {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+  width: 100%;
+}
+.paysage,
+.ntm {
+  height: 300px;
+  width: 100%;
+  position: relative;
+
+  object-fit: cover;
+}
+.voyage {
+  font-size: 300%;
+  padding: 60px;
+  color: #1f2039;
+}
+.portfolio-section-photos {
+  background-color: white;
+}
+.portrait {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+  width: 100%;
+}
+.voirp {
+  display: flex;
+  width: 20%;
+  justify-content: center;
+  padding: 20px;
+}
+.photo-hover {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+}
+.paysage:hover .photo-hover,
+.ntm:hover .photo-hover {
+  display: flex;
+}
+.navigation {
+  display: flex;
+  justify-content: end;
+  flex-direction: row;
+}
+.ecriturelogo {
+  position: sticky;
+  top: 0;
+}
+table {
+  display: flex;
+  justify-content: center;
+  color: azure;
+  border-collapse: collapse;
+}
+tr {
+  border: 1px solid #8788ba;
+}
+td {
+  padding: 50px;
+  border: 1px solid #8788ba;
+}
+caption {
+  padding: 40px;
+  align-items: center;
+}
+.div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 30px;
+}
+.unprojet {
+  font-size: 300%;
+  display: flex;
+  justify-content: center;
+}
+.projet1 {
+  width: 80%;
+  height: 40%;
+  display: inline;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.projet2 {
+  display: flex;
+  justify-content: center;
+}
+.projet3 {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+.proje {
+  height: 300px;
+  width: 86%;
+}
+.envoyer {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  border-radius: 60px;
+  background: linear-gradient(90deg, #8e86b5, #acaeed);
+}
+.envoyer:hover {
+  background: linear-gradient(90deg, #696484, #8788ba);
+  box-shadow: #1f2039;
+}
+@media screen and (max-width: 767px) {
+  h1,
+  h2 {
+    font-size: 2em;
+  }
+  body {
+    max-width: 1000px;
+  }
+}
+@media screen and (max-width: 970px) {
+  .image1,
+  .image2,
+  .image,
+  .tel,
+  .accueil,
+  .haut {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .apropos {
+    display: flex;
+    padding-bottom: 40px;
+    justify-content: center;
+  }
+  .a-propos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .projet1 {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+.apropos {
+  display: flex;
+  justify-content: center;
+}
